@@ -3,18 +3,18 @@
 //  Flash Chat iOS13
 //
 //  Created by Angela Yu on 21/10/2019.
+//  Modified by Dhika Aditya on 01/09/2022.
 //  Copyright © 2019 Angela Yu. All rights reserved.
 //
 
 import UIKit
+import FirebaseCore
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        FirebaseApp.configure()
         return true
     }
 
