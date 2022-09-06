@@ -17,7 +17,8 @@
 		0B62818F235DF01000E35CAF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B62818E235DF01000E35CAF /* LoginViewController.swift */; };
 		0B628191235DF01B00E35CAF /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B628190235DF01B00E35CAF /* ChatViewController.swift */; };
 		0B62819E235F0F4D00E35CAF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0B62819D235F0F4D00E35CAF /* README.md */; };
-		70298A5B28C0BC23000E27F4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70298A5A28C0BC23000E27F4 /* GoogleService-Info.plist */; };
+		708B2A4228C75E35002DF1F7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 708B2A4128C75E35002DF1F7 /* GoogleService-Info.plist */; };
+		708B2A4428C765B8002DF1F7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708B2A4328C765B8002DF1F7 /* Constants.swift */; };
 		70C7F05728C0C7D800E6EBC8 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 70C7F05628C0C7D800E6EBC8 /* FirebaseAuth */; };
 		70C7F05928C0C7D800E6EBC8 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 70C7F05828C0C7D800E6EBC8 /* FirebaseAuthCombine-Community */; };
 		70C7F05B28C0C7D800E6EBC8 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 70C7F05A28C0C7D800E6EBC8 /* FirebaseFirestore */; };
@@ -38,7 +39,8 @@
 		0B62818E235DF01000E35CAF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0B628190235DF01B00E35CAF /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		0B62819D235F0F4D00E35CAF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		70298A5A28C0BC23000E27F4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		708B2A4128C75E35002DF1F7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		708B2A4328C765B8002DF1F7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +87,8 @@
 				0B62817F235DEE8400E35CAF /* Assets.xcassets */,
 				0B628181235DEE8400E35CAF /* LaunchScreen.storyboard */,
 				0B628184235DEE8400E35CAF /* Info.plist */,
-				70298A5A28C0BC23000E27F4 /* GoogleService-Info.plist */,
+				708B2A4128C75E35002DF1F7 /* GoogleService-Info.plist */,
+				708B2A4328C765B8002DF1F7 /* Constants.swift */,
 			);
 			path = "Flash Chat";
 			sourceTree = "<group>";
@@ -186,7 +189,7 @@
 			files = (
 				0B628183235DEE8400E35CAF /* LaunchScreen.storyboard in Resources */,
 				0B628180235DEE8400E35CAF /* Assets.xcassets in Resources */,
-				70298A5B28C0BC23000E27F4 /* GoogleService-Info.plist in Resources */,
+				708B2A4228C75E35002DF1F7 /* GoogleService-Info.plist in Resources */,
 				0B62819E235F0F4D00E35CAF /* README.md in Resources */,
 				0B62817E235DEE8100E35CAF /* Main.storyboard in Resources */,
 			);
@@ -203,6 +206,7 @@
 				0B628177235DEE8100E35CAF /* AppDelegate.swift in Sources */,
 				0B628179235DEE8100E35CAF /* SceneDelegate.swift in Sources */,
 				0B62818F235DF01000E35CAF /* LoginViewController.swift in Sources */,
+				708B2A4428C765B8002DF1F7 /* Constants.swift in Sources */,
 				0B628191235DF01B00E35CAF /* ChatViewController.swift in Sources */,
 				0B62818D235DF00B00E35CAF /* RegisterViewController.swift in Sources */,
 			);
